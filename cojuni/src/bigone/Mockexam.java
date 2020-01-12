@@ -1,7 +1,6 @@
 package bigone;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import static java.lang.Math.max;
 
 public class Mockexam {
     public int[] solution(int[] answers) {
@@ -39,7 +38,6 @@ public class Mockexam {
             k += maxIdex;
         }
 
-        List<Integer> resultList = new ArrayList<>();
         int[] result = new int[3];
 
         for(int q=0; q<maxRes; q++){
@@ -51,19 +49,24 @@ public class Mockexam {
                 result[2]++;
         }
 
-        resultList.add(result[0]);
-        resultList.add(result[1]);
-        resultList.add(result[2]);
+        int maxint = max(result[0], max(result[1], result[2]) );
+        int index = 0;
+        int index1 = 0;
 
-        // 이게 무슨 하 문제야....... 다중 배열 넣는 작업 필요함.
-        int max = resultList.stream().max(Integer::compare).orElse(-1);
+        int[] answer11 = new int[3];
 
-        List<Integer> intList = resultList.stream().filter(x -> x == max).collect(Collectors.toList());
+        while (index < 3) {
+            if (maxint == result[index]) {
+                answer11[index1] = (index+1);
+                index1++;
+            }
+            index++;
+        }
 
-        answer = new int[intList.size()];
-        for(int m = 0; m < intList.size(); m ++)
-        {
-            answer[m] = intList.get(m);
+        answer = new int[index1];
+
+        for(int w=0; w< index1; w++) {
+            answer[w] = answer11[w];
         }
 
         return answer;

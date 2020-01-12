@@ -14,8 +14,8 @@ public class MockexamTest {
     @Before
     public void setUp() {
         mockexam = new Mockexam();
-        array = new int[]{1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
-        result = new int[] {5, 6, 3};
+        array = new int[]{1,3,2,4,2};
+        result = new int[] {1,2,3};
     }
 
     @Test
