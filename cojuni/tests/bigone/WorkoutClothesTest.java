@@ -22,8 +22,8 @@ public class WorkoutClothesTest {
         //5	[2, 4]	[3]	4
         //3	[3]	[1]	2
         n = 5;
-        lost = new int[]{2, 4};
-        reserve = new int[]{1, 3, 5};
+        lost = new int[]{1,2,3,4,5};
+        reserve = new int[]{1,2,3,4,5};
         result = 5;
     }
 
