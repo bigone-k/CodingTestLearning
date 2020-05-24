@@ -1,4 +1,4 @@
-package bigone;
+package bigone.programmers;
 
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
