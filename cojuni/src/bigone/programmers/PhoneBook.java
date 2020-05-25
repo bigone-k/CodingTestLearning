@@ -1,8 +1,8 @@
-package bigone;
+package bigone.programmers;
 
-import java.util.*;
+import bigone.Solution;
 
-public class Solution {
+public class PhoneBook {
     public boolean solution(String[] phone_book) {
         for( int i = 0; i < phone_book.length; i++)
             for( int j = 0; j < phone_book.length; j++)
