@@ -1,8 +1,8 @@
-package bigone;
+package bigone.programmers;
 
 import java.util.*;
 
-public class Solution {
+class TruckBridge {
     static Queue<Integer> bridge;
     static int time = 0;
     static int sumWeight;
@@ -51,6 +51,6 @@ public class Solution {
         int weight = 10;
         int[] truck_weights = {7, 4, 5, 6};
 
-        System.out.println(new Solution().solution(bridge_length, weight, truck_weights));
+        System.out.println(new TruckBridge().solution(bridge_length, weight, truck_weights));
     }
 }

@@ -15,6 +15,6 @@ public class PhoneBook {
     public static void main(String arg[]) {
         String[] phone_book = {"1234", "47474744124242312"};
 
-        System.out.println("result : " + new Solution().solution(phone_book));
+        System.out.println("result : " + new PhoneBook().solution(phone_book));
     }
 }
