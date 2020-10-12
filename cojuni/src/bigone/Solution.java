@@ -3,54 +3,23 @@ package bigone;
 import java.util.*;
 
 public class Solution {
-    static Queue<Integer> bridge;
-    static int time = 0;
-    static int sumWeight;
+    public int solution(String[][] clothes) {
+        int answer = 0;
 
-    public int solution(int bridge_length, int weight, int[] truck_weights) {
-        bridge = new LinkedList<>();
+        HashMap<String, String> hashMap = new HashMap<>();
 
-        for (int i = 0; i < truck_weights.length; i++) {
-            while (true)
-            {
-                if (bridge.isEmpty())
-                {
-                    bridge.offer(truck_weights[i]);
-                    sumWeight += truck_weights[i];
-                    time++;
-                    break;
-                }
-                else if (bridge.size() == bridge_length)
-                {
-                    sumWeight -= bridge.poll();
-                }
-                else
-                {
-                    if (sumWeight + truck_weights[i] > weight)
-                    {
-                        bridge.offer(0);
-                        time++;
-                    }
-                    else
-                    {
-                        bridge.offer(truck_weights[i]);
-                        sumWeight += truck_weights[i];
-                        time++;
-                        break;
-                    }
-                }
-            }
+        for (String[] strings:clothes) {
+            hashMap.put(strings[0], strings[1]);
         }
+        System.out.println(hashMap);
 
-        time = time + bridge_length;
 
-        return time;
+        return answer;
     }
-    public static void main(String arg[]) {
-        int bridge_length = 2;
-        int weight = 10;
-        int[] truck_weights = {7, 4, 5, 6};
 
-        System.out.println(new Solution().solution(bridge_length, weight, truck_weights));
+    public static void main(String arg[]) {
+        String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+
+        //new Solution().solution(clothes);
     }
 }

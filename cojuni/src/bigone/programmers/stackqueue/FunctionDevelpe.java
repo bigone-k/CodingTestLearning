@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.stackqueue;
 
 import java.util.*;
 
@@ -30,13 +30,5 @@ public class FunctionDevelpe {
             System.out.println(i);
 
         return answer;
-    }
-
-    public static void main(String arg[]) {
-        int[] progresses = {99, 0, 99, 0};
-        int[] speeds = {1, 1, 1, 1};
-
-
-        new FunctionDevelpe().solution(progresses, speeds);
     }
 }

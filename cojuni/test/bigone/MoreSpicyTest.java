@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.MoreSpicy;
+import bigone.programmers.heap.MoreSpicy;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.hash;
 
 import java.util.Arrays;
 import java.util.HashMap;

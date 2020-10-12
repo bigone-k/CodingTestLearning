@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.Top;
+import bigone.programmers.stackqueue.Top;
 import org.junit.Before;
 import org.junit.Test;
 

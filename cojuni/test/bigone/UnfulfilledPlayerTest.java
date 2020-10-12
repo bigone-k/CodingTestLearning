@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.UnfulfilledPlayer;
+import bigone.programmers.hash.UnfulfilledPlayer;
 import org.junit.Before;
 import org.junit.Test;
 

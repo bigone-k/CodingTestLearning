@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.Mockexam;
+import bigone.programmers.bp.Mockexam;
 import org.junit.Before;
 import org.junit.Test;
 

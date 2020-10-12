@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.dfsbfs;
 
 public class TargetNumber {
     public int solution(int[] numbers, int target) {
@@ -15,15 +15,5 @@ public class TargetNumber {
             return DFS(numbers, target, index + 1, num + numbers[index]) +
                     DFS(numbers, target, index + 1, num - numbers[index]);
         }
-    }
-
-    public static void main(String arg[]) {
-        int[] arr = new int[]{
-                30,14,15,16,4
-        };
-
-        int target = 19;
-
-        System.out.println("result : " + new TargetNumber().solution(arr, target));
     }
 }

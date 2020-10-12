@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.dfsbfs;
 
 public class Network {
     static boolean[][] visit;

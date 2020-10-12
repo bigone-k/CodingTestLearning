@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.stackqueue;
 
 import java.util.ArrayList;
 import java.util.Stack;

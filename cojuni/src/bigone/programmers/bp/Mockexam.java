@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.bp;
 
 import static java.lang.Math.max;
 

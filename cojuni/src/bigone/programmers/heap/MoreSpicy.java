@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.heap;
 
 import java.util.ArrayDeque;
 import java.util.Comparator;

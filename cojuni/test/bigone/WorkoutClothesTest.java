@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.WorkoutClothes;
+import bigone.programmers.greedy.WorkoutClothes;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.stackqueue;
 
 import java.util.*;
 
@@ -45,12 +45,5 @@ class TruckBridge {
         time = time + bridge_length;
 
         return time;
-    }
-    public static void main(String arg[]) {
-        int bridge_length = 2;
-        int weight = 10;
-        int[] truck_weights = {7, 4, 5, 6};
-
-        System.out.println(new TruckBridge().solution(bridge_length, weight, truck_weights));
     }
 }

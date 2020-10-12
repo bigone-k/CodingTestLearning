@@ -1,6 +1,6 @@
 package bigone;
 
-import bigone.programmers.KNum;
+import bigone.programmers.sort.KNum;
 import org.junit.Before;
 import org.junit.Test;
 

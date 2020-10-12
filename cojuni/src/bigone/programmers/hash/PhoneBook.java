@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.hash;
 
 import bigone.Solution;
 
@@ -10,11 +10,5 @@ public class PhoneBook {
                     return false;
 
         return true;
-    }
-
-    public static void main(String arg[]) {
-        String[] phone_book = {"1234", "47474744124242312"};
-
-        System.out.println("result : " + new PhoneBook().solution(phone_book));
     }
 }

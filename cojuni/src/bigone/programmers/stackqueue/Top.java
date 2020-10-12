@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.stackqueue;
 
 import java.util.LinkedList;
 import java.util.Queue;

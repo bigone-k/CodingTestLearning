@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.sort;
 
 import java.util.Arrays;
 

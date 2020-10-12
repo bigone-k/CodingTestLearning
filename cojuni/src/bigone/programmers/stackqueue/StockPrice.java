@@ -1,4 +1,4 @@
-package bigone.programmers;
+package bigone.programmers.stackqueue;
 
 public class StockPrice {
     public int[] solution(int[] prices) {
@@ -20,11 +20,5 @@ public class StockPrice {
             System.out.println(l);
 
         return answer;
-    }
-
-    public static void main(String arg[]) {
-        int[] prices = {1, 2, 1, 3, 3};
-
-        new StockPrice().solution(prices);
     }
 }
