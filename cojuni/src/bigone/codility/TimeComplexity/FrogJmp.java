@@ -1,4 +1,4 @@
-package bigone.codility.Arrays;
+package bigone.codility.TimeComplexity;
 
 public class FrogJmp {
     public int solution(int X, int Y, int D) {

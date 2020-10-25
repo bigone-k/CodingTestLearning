@@ -1,4 +1,4 @@
-package bigone.codility.Arrays;
+package bigone.codility.TimeComplexity;
 
 import java.util.*;
 
